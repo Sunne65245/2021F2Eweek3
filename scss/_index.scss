@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    width: 100%;
+    background: #F4F5F9;
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+
+.logo {
+    height: 181px;
+    margin-top: 150px;
+    z-index: 10;
+    img{
+        display: block;
+        margin: auto;
+        width:699px;
+        height:181px;
+    }
+    
+
+}
+
+
+.sub-title {
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4B3701;
+    margin: 48px 0px;
+}
+
+.yellow-link {
+    display: inline-block;
+    background-color: #FFEDC8;
+    border-radius: 24px;
+    width: 272px;
+    // height: 35px;
+    align-items: flex-start;
+    padding: 8px 24px;
+    margin: 0px 24px;
+}
+
+.row{
+    height: 51px;
+}
+
+.row a {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #4B3701;
+}
+
+section span {
+    padding-top: 256px;
+
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #E8225D;
+}
+
+.text-center {
+    text-align: center;
+    
+}
+
+.illustrate{
+    height:134px;
+    margin-top: 205px;
+}
+
+.illustrate img{
+    position: absolute;
+    left: 162px;
+    padding-top: -500px;
+    margin-top: -51px;
+    width:302px;
+    height:71px;
+}
+
+.test {
+    position: static;
+    width: 112px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 80px;
+
+}
+
+.testr {
+    position: static;
+    width: 208px;
+    height: 18px;
+    left: 908px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 80px;
+}
+
+.indexContent::before {
+    content: '';
+    width: 611px;
+    height: 548px;
+    background-color: #FFCA5A;
+    z-index: -9999;
+    position: absolute;
+    left: 27%;
+    top: 13%;
+    -webkit-clip-path: inset(20% 5% 10% 5% round 185% 218% 73% 175%);
+    transform: skew(344deg,344deg);
+}

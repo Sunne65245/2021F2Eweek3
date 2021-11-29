@@ -1,0 +1,55 @@
+.busRoute{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+}
+.busCard{
+    margin-bottom: 3rem;
+    width: 22.25rem;
+}
+.busCardTitle{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.googleMap{
+    width: 40rem;
+    height: 43rem;
+    overflow: hidden;
+    img{
+        height:100%;
+    }
+}
+.routeEnter{
+    padding: 1.1rem;
+    border: 1px solid $Brown;
+    border-radius: 4px;
+}
+.suggestedList{
+    padding: 1.1rem;
+    border: 1px solid $Brown;
+    border-radius: 4px;
+    a{
+        display: block;
+        text-align: end;
+    }
+    .suggestedTitle{
+        display: flex;
+        justify-content: space-between;
+    }
+    .routeText{
+        display: block;
+        margin: 1rem 0;
+        padding: 1rem 0;
+        border-top: 1px  solid $Brown;
+        border-bottom: 1px  solid $Brown;
+    }
+}
+
+.suggestedList:hover{
+    background-color: $Visual_yellow;
+    .routeText{
+        border-top: 1px  solid $White;
+        border-bottom: 1px  solid $White;
+    }
+}
